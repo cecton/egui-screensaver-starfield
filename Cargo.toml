@@ -1,0 +1,30 @@
+[package]
+name = "egui-screensaver-starfield"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["Cecile Tonglet <cecile.tonglet@cecton.com>"]
+description = "Starfield screensaver for egui — stars streaking outward from the center as if flying through space"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/cecton/egui-screensaver-starfield"
+homepage = "https://cecton.github.io/egui-screensaver-starfield"
+documentation = "https://docs.rs/egui-screensaver-starfield"
+keywords = ["egui", "screensaver", "starfield", "animation", "wasm"]
+categories = ["gui", "graphics", "wasm", "visualization"]
+
+[dependencies]
+egui = { version = "0.35", default-features = false }
+
+[dev-dependencies]
+xtask-wasm = { version = "0.6.5", features = ["run-example", "wasm-opt"] }
+
+[target.'cfg(target_arch = "wasm32")'.dev-dependencies]
+eframe = { version = "0.35", default-features = false, features = ["glow", "default_fonts", "web_screen_reader", "accesskit"] }
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = ["HtmlCanvasElement"] }
+
+[workspace]
+members = ["."]
+resolver = "2"

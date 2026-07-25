@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Starfield icon">
+  <rect width="512" height="512" rx="96" fill="#05070d"/>
+  <g stroke="#ffffff" stroke-linecap="round">
+    <line x1="256" y1="256" x2="256" y2="70" stroke-width="10" opacity="0.9"/>
+    <line x1="256" y1="256" x2="410" y2="150" stroke-width="8" opacity="0.85"/>
+    <line x1="256" y1="256" x2="440" y2="300" stroke-width="12" opacity="0.9"/>
+    <line x1="256" y1="256" x2="330" y2="430" stroke-width="7" opacity="0.8"/>
+    <line x1="256" y1="256" x2="150" y2="410" stroke-width="9" opacity="0.85"/>
+    <line x1="256" y1="256" x2="72" y2="290" stroke-width="6" opacity="0.75"/>
+    <line x1="256" y1="256" x2="100" y2="140" stroke-width="11" opacity="0.9"/>
+  </g>
+  <circle cx="256" cy="256" r="14" fill="#ffffff"/>
+  <circle cx="70" cy="120" r="4" fill="#cfe8ff"/>
+  <circle cx="440" cy="90" r="5" fill="#ffffff"/>
+  <circle cx="120" cy="440" r="4" fill="#cfe8ff"/>
+  <circle cx="460" cy="420" r="5" fill="#ffffff"/>
+  <circle cx="40" cy="380" r="3" fill="#cfe8ff"/>
+</svg>
